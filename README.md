@@ -5,7 +5,7 @@ This router is based on simonhamp/routes of which I forked months ago. There is 
 
 <h3> Example</h3>
 <pre><code>
-<?php
+&lt;?php
 
 include('router.php');
 
