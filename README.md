@@ -29,6 +29,7 @@ print_r(array_filter($action_request));
 </pre>
 
 The above example should return something like this
+<p>
    Array ( [0] => test [1] => index [2] => method [3] => param_one [4] => param_two [5] => param_threee )
-   
+ </p>  
 By writing a simple dispatcher, we can easily dispatch the controller/action + parameters .
