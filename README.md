@@ -23,8 +23,12 @@ $request = trim(str_replace($default_dir, '', $url));
 Router::add($routes);
 $action_request = Router::route($request);
 
-print_r($action_request);
+print_r(array_filter($action_request));
 
 </code>
 </pre>
 
+The above example should return something like this
+   Array ( [0] => test [1] => index [2] => method [3] => param_one [4] => param_two [5] => param_threee )
+   
+By writing a simple dispatcher, we can easily dispatch the controller/action + parameters .
