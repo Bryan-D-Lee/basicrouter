@@ -1,0 +1,25 @@
+{
+  "name": "Lorenzo-D-Alipio/basicrouter",
+  "type": "library",
+  "description": "Simple router forked from simonham with simple modifications",
+  "keywords": ["php", "routing"],
+  "homepage": "https://github.com/Lorenzo-D-Alipio/basicrouter",
+  "license": "MIT",
+
+  "require": {
+    "php": ">=5.3.0"
+  },
+
+  "authors": [
+  {
+    "name": "Credit: Simon Hamp",
+    "name": "Lorenzo De Leon Alipio"
+  }
+  ],
+
+  "autoload": {
+    "classmap": ["Router.php"]
+  },
+
+  "target-dir": ""
+}
