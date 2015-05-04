@@ -58,7 +58,7 @@ print_r(array_filter($action_request));
 <pre><code>
 &lt;?php
 
-include('router.php');
+include('Router.php');
 
 $routes = array(
        
