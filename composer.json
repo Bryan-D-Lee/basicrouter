@@ -1,5 +1,5 @@
 {
-  "name": "Lorenzo-D-Alipio/basicrouter",
+  "name": "lorenzo-d-alipio/basicrouter",
   "type": "library",
   "description": "Simple router forked from simonham with simple modifications",
   "keywords": ["php", "routing"],
