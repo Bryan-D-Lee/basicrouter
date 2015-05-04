@@ -20,8 +20,8 @@ $url = 'dir/controller/method/param_one/param_two/param_threee';
 $default_dir = ('dir/');
 $request = trim(str_replace($default_dir, '', $url));		
 		
-\System\Libraries\Route\Router::add($routes);
-$action_request = \System\Libraries\Route\Router::route($request);
+Router::add($routes);
+$action_request = Router::route($request);
 
 print_r($action_request);
 
