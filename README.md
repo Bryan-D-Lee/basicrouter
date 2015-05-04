@@ -26,7 +26,7 @@ If you install it via composer, make sure to add namespace on top of the Router 
 </pre>
 </p>
 
-<h3>Example of composer installed</h3>>
+<h3>Example of composer installed</h3>
 <pre>
 <code>
 &lt;?php
@@ -79,7 +79,7 @@ print_r(array_filter($action_request));
 </code>
 </pre>
 
-The above example should return something like this
+The above examples should return something like this
 <p>
    Array ( [0] => test [1] => index [2] => method [3] => param_one [4] => param_two [5] => param_threee )
  </p>  
