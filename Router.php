@@ -50,7 +50,7 @@ class Router
             }
         }
       
-        return(self::createSegments($val . $qs));
+        return(self::createSegments($uri . $qs));
 
 
     }
