@@ -8,9 +8,17 @@ This can be installed using composer.
 {
 
 	"require":{
-	             "lorenzo-d-alipio/basicrouter": "dev-master"
+	              "basicrouter": "dev-master"
 				
-		}
+		},
+       "repositories": [
+   
+   {
+   	"type": "vcs",
+   	"url": "https://github.com/Lorenzo-D-Alipio/basicrouter"
+
+   }
+   ]  
 		
 }
 				
