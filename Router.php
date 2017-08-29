@@ -59,7 +59,6 @@ class Router
         return (explode('/', $routed_item));
     }
     
-    
     public static function reverseRoute($controller, $root = "/")
     {
         $index = array_search($controller, static::$routes);
