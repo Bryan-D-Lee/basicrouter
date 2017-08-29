@@ -2,6 +2,7 @@
 <p>
 This router is based on simonhamp/routes of which I forked months ago. There is nothing wrong about the original router. However, I decided to add another method to extract the controller and the controller method from the route() shown in the original class.
 </p>
+
 <h3>Installation</h3>
 This can be installed using composer.
 <pre><code>
