@@ -1,6 +1,5 @@
 <?php
 
-
 class Router
 {
     protected static $allow_query = true;
