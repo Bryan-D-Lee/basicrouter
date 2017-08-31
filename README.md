@@ -16,7 +16,7 @@ This can be installed using composer.
    
    {
    	"type": "vcs",
-   	"url": "https://github.com/Lorenzo-D-Alipio/basicrouter"
+   	"url": "https://github.com/Bryan-D-Lee/basicrouter"
 
    }
    ]  
